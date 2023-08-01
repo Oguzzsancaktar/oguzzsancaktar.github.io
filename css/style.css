@@ -1,0 +1,28 @@
+.header a{
+  color: white;
+  opacity: 0.9;
+  font-size: 18px;
+}
+
+.header a:hover{
+  text-shadow: 1px  white;
+  opacity: 1;
+  transition: all 0.1s linear;
+  color: white;
+}
+
+.footer{
+  height: 3em;
+}
+.footer p{
+  height: 100%;
+  line-height: 3em;
+  padding-left: 1rem;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 760px){
+ 
+}
