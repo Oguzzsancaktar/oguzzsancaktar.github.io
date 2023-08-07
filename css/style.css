@@ -22,6 +22,29 @@
 }
 
 
+.slider-carrousel{
+  height: 450px;
+}
+
+.owl-stage, .owl-stage-outer{
+  height: 100%;
+}
+
+
+.owl-prev,.owl-next{
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  transform: translateY(-50%);
+  z-index: 999;
+  background: bisque!important;
+}
+
+.owl-next{
+  right: 0;
+}
+
 
 @media screen and (max-width: 760px){
  
