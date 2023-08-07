@@ -1,9 +1,7 @@
 <?php
 
 error_reporting(0);
-
 if (isset($_POST['send'])) {
-
     $name = $_POST["name"];
     $surname = $_POST["surname"];
     $email = $_POST["email"];

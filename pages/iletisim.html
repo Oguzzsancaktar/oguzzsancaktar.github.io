@@ -106,33 +106,33 @@
 					<h1 class="mb-4">İletişim Sayfası</h1>
 					<div class="row">
 						<div class="col-md-6">
-							<form action="/php/iletisim.php" method="POST" name="form" onsubmit="return handleForm()"
+							<form action="/php/iletisim.php" method="POST" name="form" onsubmit="return handleForm(event)"
 								id="contactForm">
 
 
 								<div class="mb-3">
-									<label for="name" class="form-label">İsim</label>
+									<label for="name" id="labelname" class="form-label">İsim</label>
 									<input type="text" class="form-control" id="name" name="name">
 								</div>
 								<div class="mb-3">
-									<label for="surname" class="form-label">Soyisim</label>
+									<label for="surname" id="labelsurname" class="form-label">Soyisim</label>
 									<input type="text" class="form-control" id="surname" name="surname">
 								</div>
 								<div class="mb-3">
-									<label for="email" class="form-label">Email</label>
+									<label for="email" id="labelemail" class="form-label">Email</label>
 									<input type="email" class="form-control" id="email" name="email">
 								</div>
 								<div class="mb-3">
-									<label for="phone" class="form-label">Phone</label>
+									<label for="phone" id="labelphone" class="form-label">Telefon</label>
 									<input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
 										placeholder="Format: 555-555-5555">
 								</div>
 								<div class="mb-3">
-									<label for="subject" class="form-label">Subject</label>
+									<label id="labelsubject" for="subject" class="form-label">Konu</label>
 									<input type="text" class="form-control" id="subject" name="subject">
 								</div>
 								<div class="mb-3">
-									<label for="gender" class="form-label">Gender</label>
+									<label for="gender" class="form-label">Cinsiyet</label>
 									<select class="form-control" id="gender" name="gender">
 										<option value="" disabled selected>Select your gender</option>
 										<option value="male">Male</option>
@@ -141,7 +141,7 @@
 									</select>
 								</div>
 								<div class="mb-3">
-									<label for="message" class="form-label">Message</label>
+									<label for="message" id="labelmessage" class="form-label">Mesaj</label>
 									<textarea class="form-control" id="message" name="message" rows="5"></textarea>
 								</div>
 								<div class="mb-3 form-check">
@@ -152,8 +152,7 @@
 									<label for="attachment" class="form-label">Attachment</label>
 									<input type="file" class="form-control" id="attachment" name="attachment">
 								</div>
-								<button type="button" class="btn btn-primary mb-5" name="send"
-									onclick="return validateWithJavaScript(event)">Submit
+								<button type="submit" class="btn btn-primary mb-5" name="send">Submit
 									(JavaScript
 									Validation)</button>
 								<button type="button" class="btn btn-primary mb-5" name="send"
@@ -203,58 +202,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script>
 	<script src="/js/contact.js"></script>
 	<script>
-
-		function reset() {
-			document.getElementById('contactForm').reset();
-		}
-
-		function validateWithJavaScript(e) {
-			e.preventDefault();
-
-			const errorEl = document.getElementById('error');
-			errorEl.style.display = 'none';
-
-
-			const name = document.getElementById('name').value;
-			const surname = document.getElementById('surname').value;
-			const email = document.getElementById('email').value;
-			const phone = document.getElementById('phone').value;
-			const gender = document.getElementById('gender').value;
-			const subject = document.getElementById('subject').value;
-			const message = document.getElementById('message').value;
-			const subscribe = document.getElementById('subscribe').checked;
-
-			if (!name || !email || !phone || !subject || !gender || !message || !surname) {
-				errorEl.style.display = 'block';
-				errorEl.innerHTML = 'Tğm alanları doldur.';
-				return;
-			}
-
-			if (!isValidEmail(email)) {
-				errorEl.style.display = 'block';
-				errorEl.innerHTML = 'Doğru eposta gir';
-				return;
-			}
-
-			if (!isValidPhone(phone)) {
-				errorEl.style.display = 'block';
-				errorEl.innerHTML = 'DOgru tel no gir (Format: 555-555-5555).';
-				return;
-			}
-
-			errorEl.style.color = 'green';
-			errorEl.innerHTML = 'Başarılı (JavaScript validation)';
-
-			document.getElementById('contactForm').submit();
-		}
-
-		function isValidEmail(email) {
-			return email.includes('@') && email.includes('.');
-		}
-
-		function isValidPhone(phone) {
-			return /^[0-9]{3}-[0-9]{3}-[0-9]{4}$/.test(phone);
-		}
 
 		const app = new Vue({
 			el: '#contactForm',
@@ -308,6 +255,7 @@
 				}
 			}
 		});
+
 	</script>
 </body>
 
