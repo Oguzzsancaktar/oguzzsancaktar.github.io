@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const ProjectResume = ({ dates, type, position, bullets }) => {
-  const [bulletsLocal, setBulletsLocal] = React.useState(bullets.split(","));
+  const [bulletsLocal, setBulletsLocal] = React.useState(bullets.split(','));
 
   return (
     <div className="mt-5 w-full flex mob:flex-col desktop:flex-row justify-between">
@@ -9,7 +9,7 @@ const ProjectResume = ({ dates, type, position, bullets }) => {
         <h2>{dates}</h2>
         <h3 className="text-sm opacity-50">{type}</h3>
       </div>
-      <div className="w-3/5">
+      <div className="w-3/5 ml-10">
         <h2 className="text-lg font-bold">{position}</h2>
         {bulletsLocal && bulletsLocal.length > 0 && (
           <ul className="list-disc">

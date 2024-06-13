@@ -1,5 +1,6 @@
 {
   "name": "Sancaktar",
+  "fullname": "Oguz Taha Sancaktar",
   "headerTaglineOne": "Hello 👋",
   "headerTaglineTwo": "I'm Oguz Taha Sancaktar ",
   "headerTaglineThree": "Passionate Software Engineer",
@@ -104,47 +105,89 @@
       "description": "My journey in the software realm is not just about accomplishments; it's about constant evolution. I'm an advocate for pushing boundaries and am always eager to acquire new skills. My ability to work independently with unwavering quality is balanced by a curiosity that propels me to master new tools and techniques."
     }
   ],
-  "aboutpara": "👋 Hello there! I'm a dedicated and versatile Software Engineer with a passion for crafting innovative and responsive websites. My journey in the world of coding has led me to become a proficient developer across both frontend and backend systems, allowing me to create holistic and seamless digital experiences.",
+  "aboutpara": "I'm a dedicated and versatile Software Engineer with a passion for crafting innovative and responsive websites. My journey in the world of coding has led me to become a proficient developer across both frontend and backend systems, allowing me to create holistic and seamless digital experiences.",
   "resume": {
-    "tagline": "👋  I'm a software engineer, product designer.",
-    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "tagline": "Software Developer with over 6 years of experience.",
+    "description": "I'm a dedicated and versatile Software Engineer with a passion for crafting innovative and responsive websites. My journey in the world of coding has led me to become a proficient developer across both frontend and backend systems, allowing me to create holistic and seamless digital experiences.",
     "experiences": [
       {
         "id": "1",
-        "dates": "March 2022 - Present",
+        "dates": "November 2021 - Today",
         "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Bullet One, Bullet Two"
+        "position": "Software Engineer at Dotnet Turkey Software",
+        "bullets": "Frontend Lead, Project Management"
       },
       {
         "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-        "dates": "July 2020 - March 2022",
+        "dates": "February 2021 - October 2021",
         "type": "Full Time",
-        "position": "Frontend Engineer at X",
+        "position": "Software Engineer at IBTC Telekomünication",
+        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "August 2018 - January 2021",
+        "type": "Freelance",
+        "position": "Software Developer at Upwork",
         "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
       }
     ],
     "education": {
-      "universityName": "University X",
-      "universityDate": "2016-2020",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+      "universityName": "University Of Cukurova",
+      "universityDate": "2017-2024",
+      "universityPara": "OOP in C++, Compilers, Algorithms, Operating Systems, Data Structures"
     },
     "languages": [
-      "Javascript",
-      "HTML5",
-      "CSS",
-      "Python",
-      "Go"
+      "Turkish: Native",
+      "English: Proficient",
+      "German: Beginner"
     ],
-    "frameworks": [
-      "React",
-      "Typescript",
-      "NodeJs"
+    "projects": [
+      {
+        "id": "1",
+        "dates": "Sekance",
+        "type": "React • Solidty • Express • Cronjob • Cypress • Docker",
+        "position": "",
+        "bullets": "Utilized a news API and Solidity to create a blockchain infrastructure. This Ethereum-based token system involved writing separate smart contracts for each of the 195 countries. The value of these country-specific tokens fluctuated in real-time based on incoming news with multipliers determined by news categories and current global conditions."
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "FitTrainer",
+        "type": "React Native • Node.js • Express • MongoDB • Jest • Docker",
+        "position": "",
+        "bullets": "Allows fitness trainers to connect with clients and showcase their workout routines. The app was built using React Native and TypeScript offering a user-friendly platform for trainers to manage their sessions and for clients to find suitable fitness programs."
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "Tarat",
+        "type": "React Native • Node.js • Express • MongoDB • AWS",
+        "position": "",
+        "bullets": "Allows users to print QR codes and attach them to items like vehicles and homes. By scanning these QR codes people can access the user's contact information without directly sharing it. This React Native mobile application ensures that users can be reached by nearby individuals in case of need providing a secure and efficient communication method."
+      }
+    ],
+    "development": [
+      "Python",
+      "TypeScript",
+      "GraphQL",
+      "React.js",
+      "MongoDB",
+      "Angular",
+      "VueJS",
+      "Next.js",
+      "Bash",
+      "Git",
+      "React Native",
+      "Flutter"
     ],
     "others": [
       "Figma",
       "AdobeXD",
-      "AWS"
+      "AWS",
+      "Azure DevOps",
+      "Jira",
+      "MS Office",
+      "Problem-Solving",
+      "Time Management"
     ]
   }
 }
