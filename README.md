@@ -1,75 +1,79 @@
-# Proje Raporu
+![thumbnail](https://user-images.githubusercontent.com/16558205/180779213-ea740975-3df1-460a-a964-0a623ee25872.png)
 
-## 1. Giriş
+### Live - https://react-portfolio-template.netlify.app/
 
-Bu rapor, bireysel olarak geliştirilen kişisel web sitesi projesinin detaylarını içermektedir. Bu proje, derste öğrenilen HTML, CSS, ve Javascript gibi teknolojilerin uygulanması amacıyla hazırlanmıştır. Web sitesi, Bootstrap içeren responsive tasarım kullanılarak oluşturulmuş ve kendini tanıtmak isteyen öğrencilerin kullanabileceği bir platform olması hedeflenmiştir.
+### Demo Video - https://www.youtube.com/watch?v=62_HLbx2zLQ&t=9s
 
-## 2. Proje Amacı
+### Tutorials
 
-Projenin amacı, öğrencilere kendi kendilerini ve memleketlerini tanıtan kişisel bir web sitesi geliştirmelerini sağlamaktır. Bu şekilde öğrenciler, HTML, CSS, Javascript, ve Bootstrap gibi teknolojileri uygulamalı olarak kullanarak gerçek bir proje deneyimi yaşayacaklardır.
+Youtube - https://www.youtube.com/watch?v=8cmJ2kR4SpM
 
-## 3. Proje Detayları
+Blog - https://blog.chetanverma.com/how-to-build-a-portfolio-website-using-nextjs-and-tailwindcss
 
-### 3.1 Site Tasarımı
+### Features - 
 
-- Bootstrap içeren responsive tasarım kullanılmıştır.
-- Hazır tema kullanılmamıştır, özgün bir tasarım oluşturulmuştur.
+- Modern Stack (Next.js + TailwindCSS)
+- Minimal Design
+- Easy To Browse
+- Easy To Customize your details With GUI
+- Blog Crud (Create, Read, Update, Delete blog with easy to use UI).
+- Dark Mode
 
-### 3.2 Hakkında Sayfası
 
-- Giriş sayfası niteliğindedir.
-- Sayfa sahibinin kendini tanıtan bilgiler, hobiler, etkinlikler, sevdiği spor, vb. içermektedir.
-- Sayfa içerisinde ilgili resimler ve linkler yer almaktadır.
+### Sections
 
-### 3.3 Özgeçmiş Sayfası
+- Header
+- Work
+- Services
+- About
+- Contact
+- Markdown Blog
 
-- CV niteliğindedir.
-- Semantic taglar kullanılarak eğitim bilgileri içermektedir.
 
-### 3.4 Şehrim Sayfası
+### How To Use
 
-- Memleket ya da sevilen bir şehre ait bilgiler yer almaktadır (nüfus, gezilecek yerler, vb.).
-- Sayfanın başında ya da sonunda en az 4 resimden oluşan bir slider yer almaktadır.
-- Slider'daki resimlere tıklandığında ilgili içeriklere link verilmiştir.
+- Clone this repo
+- run `yarn`
+- `yarn dev`
 
-### 3.5 Mirasımız veya Takımımız Sayfası
 
-- Şehre ait kültürel miras niteliğindeki önemli bir eser ya da şehrin takımı tanıtılmaktadır.
-- HTML elemanları kullanılarak içerik oluşturulmuştur.
+### How To Deploy - 
 
-### 3.6 İlgi Alanlarım Sayfası
+- There are many ways to Deploy this repo.
+- here we are gonna use netlify
+- Login into netlify with github
+- after login select the forked repo or the repo you want to deploy
+- after selecting netlify will automatially deploy your website.
 
-- İlgili alanlarda (film, spor, vb.) internetten ücretsiz bir API servisinden veri alınarak gösterilmiştir.
+Quickes way to deploy this repo - 
 
-### 3.7 Login Sayfası
+[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
 
-- Öğrenci numarasına ait kullanıcı adı ve şifreyle login işlemi yapılmaktadır.
-- Kullanıcı adı ve şifre alanı boş geçilemez ve mail adresi olup olmadığı kontrol edilir.
-- PHP ile post edilen sayfada kullanıcı bilgileri kontrol edilir ve sonuca göre kullanıcıya mesaj verilir.
 
-### 3.8 İletişim Sayfası
+### How To Contribute - 
 
-- Form elemanları içeren bir iletişim sayfasıdır.
-- Formun tüm elemanları seçim ya da veri girişi şeklinde gönderilir.
-- Javascript ve popüler bir JS framework (örn. Vue.js, Angular.js, Express.js) kullanılarak gerekli kontrol işlemleri yapılır.
-- Formda temizle ve gönder butonları bulunmaktadır.
+I would be very happy to review your PRs and all the awesome things that you can improve on this portfolio.
 
-### 3.9 Stiller
 
-- Renk, yazı tipi ve diğer stil özellikleri ayrı bir stil dosyasında tutulmuştur.
+### Tech Stack Used - 
+- Next.js
+- TailwindCSS
 
-## 4. GitHub Proje Linki ve Commitler
 
-Proje GitHub üzerinde bir repository oluşturulmuştur ve sürekli olarak geliştirmeler yapılmıştır. Projenin ilerleyişi için GitHub repository linki ve yapılan commitlerin tarihleri belirtilmiştir.
+### Thanks
 
-## 5. Proje Hosting
+If you liked this portfolio template, don't forget to give it a ⭐.
 
-Proje, ücretsiz bir hosting hizmeti veren bir sitede barındırılmıştır. Hosting hizmeti sayesinde web sitesi internetten erişilebilir hale getirilmiştir.
+## Awesome Contributors
+[@Aryan3212](https://github.com/Aryan3212) [@achu-krishna](https://github.com/achu-krishna)
 
-## 6. Sonuç
+## Supporting
+Many hours of hard work have gone into this project. Your support will be very appreciated!
 
-Bu proje, öğrencilere web geliştirme teknolojilerini pratiğe dökme fırsatı sunmuş ve kendini tanıtma ihtiyacı olan bireyler için kullanışlı bir platform oluşturmuştur. Proje, belirtilen gereksinimleri ve özellikleri başarıyla yerine getirerek amacına ulaşmıştır.
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/chetanverma)
 
-## 7. Referanslar
 
-[Raporunuzda kullandığınız kaynakları buraya ekleyebilirsiniz.]
+
+
+
+
