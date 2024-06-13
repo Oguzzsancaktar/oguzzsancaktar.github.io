@@ -1,1 +1,150 @@
-{"name":"Chetan","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Chetan Verma - curious","headerTaglineThree":"designer and devloper","headerTaglineFour":" based in New Delhi, India.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Project One Test","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Project Two","description":"Web Development","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Project Six","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+  "name": "Sancaktar",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Oguz Taha Sancaktar ",
+  "headerTaglineThree": "Passionate Software Engineer",
+  "headerTaglineFour": " Experience in developing ",
+  "headerTaglineFive": " | Both front-end and back-end systems ",
+  "headerTaglineSix": " | Open Source Enthusiast",
+  "headerTaglineSeven": " | Top-Rated 🏅",
+  "showCursor": true,
+  "showBlog": true,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/Oguzzsancaktar"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/oguztahasancaktar/"
+    },
+    {
+      "id": "3",
+      "title": "Instagram",
+      "link": "https://instagram.com/_sancaktar"
+    },
+    {
+      "id": "4",
+      "title": "Blog",
+      "link": "https://blog.sancaktar.org/"
+    },
+    {
+      "id": "5",
+      "title": "Email",
+      "link": "mailto:oguztahasancaktar@gmail.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "AGT INC.",
+      "description": "Lead Front-End Developer",
+      "imageSrc": "/images/project-agt.jpg",
+      "url": "https://kitchen-design-dev.azurewebsites.net/"
+    },
+    {
+      "id": "2",
+      "title": "Thyssenkrupp Industrial Solutions AG | Carvaloo GmbH",
+      "description": "Sr. Front-End Developer",
+      "imageSrc": "/images/project-thyssenkrupp.jpg",
+      "url": "https://webapp-legacy.carvaloo.com"
+    },
+    {
+      "id": "3",
+      "title": "KVNO - Kassenärztliche Vereinigung Nordrhein",
+      "description": "Sr. Front-End Developer",
+      "imageSrc": "/images/project-kvno.jpg",
+      "url": "https://www.kvno.de/"
+    },
+    {
+      "id": "4",
+      "title": "Carl Zeiss Industrielle Messtechnik GmbH",
+      "description": "Software Developer",
+      "imageSrc": "/images/project-zeiss.jpg",
+      "url": "https://www.zeiss.com/"
+    },
+    {
+      "id": "5",
+      "title": "Turk Telekom",
+      "description": "Software Developer",
+      "imageSrc": "/images/project-wifispot.jpg",
+      "url": "https://www.turktelekom.com.tr/"
+    },
+    {
+      "id": "6",
+      "title": "Pettyfy UK Limited",
+      "description": "SR. Front-End Developer",
+      "imageSrc": "/images/project-pettify.jpg",
+      "url": "https://pettyfy.com/"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "🚀 Crafting Excellence",
+      "description": "I thrive on creating code that not only functions flawlessly but also tells a story. With a keen eye for detail, I specialize in developing unique, open source, and responsive websites. My commitment to leaving every line of code I touch more readable, modular, performant, and accessible is my personal hallmark."
+    },
+    {
+      "id": "2",
+      "title": "🌟 Collaborative Dynamo",
+      "description": "I'm not just a software engineer; I'm a fantastic team player who understands the true essence of teamwork. Building strong and enduring relationships is my forte, and I believe that collaboration is the cornerstone of innovation. I'm always excited to share insights, learn from others, and contribute positively to our collective success."
+    },
+    {
+      "id": "3",
+      "title": "🎯 Thinking Beyond Boundaries",
+      "description": "A strategic thinker and nonconformist at heart, I'm wired to see opportunities where others might see challenges. I have an uncanny ability to extract the best out of every situation and am constantly on the lookout for novel solutions that drive meaningful impact."
+    },
+    {
+      "id": "4",
+      "title": "💡 Lifelong Learner",
+      "description": "My journey in the software realm is not just about accomplishments; it's about constant evolution. I'm an advocate for pushing boundaries and am always eager to acquire new skills. My ability to work independently with unwavering quality is balanced by a curiosity that propels me to master new tools and techniques."
+    }
+  ],
+  "aboutpara": "👋 Hello there! I'm a dedicated and versatile Software Engineer with a passion for crafting innovative and responsive websites. My journey in the world of coding has led me to become a proficient developer across both frontend and backend systems, allowing me to create holistic and seamless digital experiences.",
+  "resume": {
+    "tagline": "👋  I'm a software engineer, product designer.",
+    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "March 2022 - Present",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": "Bullet One, Bullet Two"
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "July 2020 - March 2022",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+      }
+    ],
+    "education": {
+      "universityName": "University X",
+      "universityDate": "2016-2020",
+      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    },
+    "languages": [
+      "Javascript",
+      "HTML5",
+      "CSS",
+      "Python",
+      "Go"
+    ],
+    "frameworks": [
+      "React",
+      "Typescript",
+      "NodeJs"
+    ],
+    "others": [
+      "Figma",
+      "AdobeXD",
+      "AWS"
+    ]
+  }
+}
